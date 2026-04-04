@@ -1,0 +1,12 @@
+# Python environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Temporary folders
+inspect/
+
+# OS generated files
+.DS_Store
