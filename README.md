@@ -1,28 +1,14 @@
 # UNIPI Secretariat Scraper 🎓
 
-Ένα αυτοματοποιημένο εργαλείο (Web Scraper) γραμμένο σε Python, το οποίο εξάγει δεδομένα επικοινωνίας και ωράρια λειτουργίας από τις Γραμματείες του Πανεπιστημίου Πειραιώς (ΠΑΠΕΙ). 
+An automated tool (Web Scraper) written in Python, which extracts contact information and operating hours from the Secretariats of the University of Piraeus (UNIPI).
 
-Λόγω της δυναμικής φύσης της ιστοσελίδας του πανεπιστημίου (περιεχόμενο που φορτώνει μέσω JavaScript), το project χρησιμοποιεί το **Playwright** σε συνδυασμό με το **BeautifulSoup** για την πλήρη και ακριβή εξαγωγή των δεδομένων.
+Due to the dynamic nature of the university's website (content loaded via JavaScript), this project uses **Playwright** in combination with **BeautifulSoup** for complete and accurate data extraction.
 
-## 🛠 Τεχνολογίες που χρησιμοποιήθηκαν
-* **Python 3**
-* **Playwright:** Για το rendering δυναμικού περιεχομένου και την προσομοίωση browser.
-* **BeautifulSoup 4:** Για την ανάλυση (parsing) της HTML.
-* **CSV Module:** Για την αποθήκευση των δεδομένων.
+## 🛠 Technologies Used
 
-## 🚀 Οδηγίες Εγκατάστασης & Εκτέλεσης
+- **Python 3**
+- **Playwright:** For rendering dynamic content and simulating a browser.
+- **BeautifulSoup 4:** For parsing HTML.
+- **CSV Module:** For storing the data.
 
-1. Εγκατάσταση των απαιτούμενων βιβλιοθηκών:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-2. Εγκατάσταση των browsers του Playwright:
-   ```bash
-   playwright install
-   ```
-
-3. Εκτέλεση του scraper:
-   ```bash
-   python scraper.py
-   ```
